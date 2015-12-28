@@ -24,7 +24,7 @@ class DiaryMonthDayCollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
         yearLabel = CXLabel(fontName: "TpldKhangXiDictTrial", labelText: "\(numberToChinese(year))年", fontSize: 20.0, lineHeight: 5.0)
         
         yearLabel.center = CGPointMake(screenRect.width - yearLabel.frame.size.width / 2.0 - 15, 20 + yearLabel.frame.size.height / 2.0)

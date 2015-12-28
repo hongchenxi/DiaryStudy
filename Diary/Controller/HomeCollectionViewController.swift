@@ -29,6 +29,8 @@ class HomeCollectionViewController: UICollectionViewController {
         self.collectionView!.center = CGPoint(x: self.view.frame.size.width / 2.0, y: self.view.frame.size.height / 2.0)
         
         self.view.backgroundColor = UIColor.whiteColor()
+        
+        self.navigationController!.delegate = self
 
     }
 
@@ -83,6 +85,16 @@ class HomeCollectionViewController: UICollectionViewController {
         return UIEdgeInsetsMake(0, leftRightMagrin, 0, leftRightMagrin)
         
     }
-    
+
+}
+
+extension HomeCollectionViewController: UINavigationControllerDelegate {
+    func navigationController(navigationController: UINavigationController, animationControllerForOperation operation: UINavigationControllerOperation, fromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        let animator = DiaryAnimator()
+        animator.operation = operation
+        return animator
+    }
     
 }
+

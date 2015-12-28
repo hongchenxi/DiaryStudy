@@ -8,7 +8,7 @@
         <!--Home Collection View Controller-->
         <scene sceneID="cgc-Id-Mrn">
             <objects>
-                <collectionViewController id="jz5-Jc-SkG" customClass="HomeCollectionViewController" customModule="Diary_CollectionView_" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="jz5-Jc-SkG" customClass="HomeCollectionViewController" customModule="Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="BXR-eK-Fp3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,7 +20,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeYearCollectionViewCell" id="eDm-1q-4FO" customClass="HomeYearCollectionViewCell" customModule="Diary_CollectionView_" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeYearCollectionViewCell" id="eDm-1q-4FO" customClass="HomeYearCollectionViewCell" customModule="Diary" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -44,7 +44,7 @@
         <!--Diary Year Collection View Controller-->
         <scene sceneID="bbm-FP-nwT">
             <objects>
-                <collectionViewController storyboardIdentifier="DiaryYearCollectionViewController" id="PaN-MM-3pH" customClass="DiaryYearCollectionViewController" customModule="Diary_CollectionView_" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="DiaryYearCollectionViewController" id="PaN-MM-3pH" customClass="DiaryYearCollectionViewController" customModule="Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="wcD-uO-517">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,7 +56,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DiaryCollectionViewCell" id="OJk-d0-4Q8" customClass="DiaryCollectionViewCell" customModule="Diary_CollectionView_" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DiaryCollectionViewCell" id="OJk-d0-4Q8" customClass="DiaryCollectionViewCell" customModule="Diary" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -79,7 +79,7 @@
         <!--Diary Month Day Collection View Controller-->
         <scene sceneID="5gg-Er-l4S">
             <objects>
-                <collectionViewController storyboardIdentifier="DiaryMonthDayCollectionViewController" id="RRa-cP-TPg" customClass="DiaryMonthDayCollectionViewController" customModule="Diary_CollectionView_" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="DiaryMonthDayCollectionViewController" id="RRa-cP-TPg" customClass="DiaryMonthDayCollectionViewController" customModule="Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="YFV-zB-luW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,7 +91,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DiaryCollectionViewCell" id="yxt-ax-dRt" customClass="DiaryCollectionViewCell" customModule="Diary_CollectionView_" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DiaryCollectionViewCell" id="yxt-ax-dRt" customClass="DiaryCollectionViewCell" customModule="Diary" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
